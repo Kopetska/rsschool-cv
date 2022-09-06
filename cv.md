@@ -23,3 +23,26 @@ I am quick learner, self-motivated and persistent.
 I think the combination of my education, skills and experience could be a good addition to become a Front-end Developer.
 =======================================================================================================
 
+
+
+**###My skills**
+   
+
+**Hard skills**
+
+                                                                             
+*-HTML5, CSS3                                                  
+*-SASS, BEM                                                      
+*-JavaScript                                                        
+*-Git, GitHub                                                      
+*-VS Code
+
+
+**Soft skill**
+
+*-Team player
+*-Self-learning
+*-Problem solving skills and critical thinking
+*-Emotional intelligence                                             
+=======================================================================================================
+
