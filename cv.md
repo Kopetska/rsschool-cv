@@ -47,3 +47,26 @@ I think the combination of my education, skills and experience could be a good a
 *-Emotional intelligence                                             
 =======================================================================================================
 
+
+**###Code example**
+
+```
+function squareSum(numbers) {
+let total = 0;
+for(const number of numbers) {
+total += Math.pow(number, 2);
+}
+return total;
+}
+```
+=======================================================================================================
+
+
+**Completed projects**
+
+
+*https://github.com/Kopetska/barbershop
+*https://github.com/Kopetska/goit-markup-hw-08
+=======================================================================================================
+
+
