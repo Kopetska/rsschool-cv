@@ -70,3 +70,35 @@ return total;
 =======================================================================================================
 
 
+**###Education**
+
+ 
+National Pedagogical Dragomanov University, Faculty of Pedagogics and Psychology (graduated 2014).
+
+
+**Courses**
+
+
+*-GoIT Full Stack Developer (in progress);
+*-RS School JavaScript/Front-end course, stage #1 (in progress);
+*-IT Fundamentals for Ukrainian Switchers (completed);
+*-IT Switch from GlobalLogic Education (completed);
+=======================================================================================================
+
+
+**###Experience**
+
+
+McDonalds Ukraine Ltd., shift manager.
+=======================================================================================================
+
+
+**Languages**
+
+
+*-English - B1(Intermediate) – EPAM English Test Result;
+*-Ukrainian – Native;
+*-Russian – Native.
+
+
+
