@@ -14,7 +14,7 @@
 =======================================================================================================
 
 
-**###About myself ** 
+**###About myself**
 
 
   I have been working as shift manager in a restaurant business for 11 years. During this time I have made a career from an employee to a shift manager. I am responsible for the staff management, the food preparation and the customer service during the shift. I have gained a lot of valuable experience in team communication and time management.
@@ -31,20 +31,20 @@ I think the combination of my education, skills and experience could be a good a
 **Hard skills**
 
                                                                              
-*-HTML5, CSS3                                                  
-*-SASS, BEM                                                      
-*-JavaScript                                                        
-*-Git, GitHub                                                      
-*-VS Code
-*-Figma
+*HTML5, CSS3                                                  
+*SASS, BEM                                                      
+*JavaScript                                                        
+*Git, GitHub                                                      
+*VS Code
+*Figma
 
 
 **Soft skill**
 
-*-Team player
-*-Self-learning
-*-Problem solving skills and critical thinking
-*-Emotional intelligence                                             
+*Team player
+*Self-learning
+*Problem solving skills and critical thinking
+*Emotional intelligence                                             
 =======================================================================================================
 
 
@@ -79,10 +79,10 @@ National Pedagogical Dragomanov University, Faculty of Pedagogics and Psychology
 **Courses**
 
 
-*-GoIT Full Stack Developer (in progress);
-*-RS School JavaScript/Front-end course, stage #1 (in progress);
-*-IT Fundamentals for Ukrainian Switchers (completed);
-*-IT Switch from GlobalLogic Education (completed);
+*GoIT Full Stack Developer (in progress);
+*RS School JavaScript/Front-end course, stage #1 (in progress);
+*IT Fundamentals for Ukrainian Switchers (completed);
+*IT Switch from GlobalLogic Education (completed);
 =======================================================================================================
 
 
@@ -96,9 +96,9 @@ McDonalds Ukraine Ltd., shift manager.
 **Languages**
 
 
-*-English - B1(Intermediate) – EPAM English Test Result;
-*-Ukrainian – Native;
-*-Russian – Native.
+*English - B1(Intermediate) – EPAM English Test Result;
+*Ukrainian – Native;
+*Russian – Native.
 
 
 
