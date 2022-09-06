@@ -11,7 +11,7 @@
 *E-mail - [a.laptieva@icloud.com]( a.laptieva@icloud.com)
 *GitHub - [Kopetska]( https://github.com/Kopetska)
 *Discodr - Anna Kopetska#4799
-=======================================================================================================
+
 
 
 **###About myself**
@@ -21,7 +21,7 @@
   I have been thinking of changing my career direction. I am keen on programming. That’s why I took a course in Front-end Development last year. And I keep learning now. Development interests me because it provides ample opportunities for professional growth.
 I am quick learner, self-motivated and persistent.
 I think the combination of my education, skills and experience could be a good addition to become a Front-end Developer.
-=======================================================================================================
+
 
 
 
@@ -45,7 +45,7 @@ I think the combination of my education, skills and experience could be a good a
 *Self-learning
 *Problem solving skills and critical thinking
 *Emotional intelligence                                             
-=======================================================================================================
+
 
 
 **###Code example**
@@ -59,7 +59,7 @@ total += Math.pow(number, 2);
 return total;
 }
 ```
-=======================================================================================================
+
 
 
 **Completed projects**
@@ -67,7 +67,7 @@ return total;
 
 *https://github.com/Kopetska/barbershop
 *https://github.com/Kopetska/goit-markup-hw-08
-=======================================================================================================
+
 
 
 **###Education**
@@ -83,14 +83,14 @@ National Pedagogical Dragomanov University, Faculty of Pedagogics and Psychology
 *RS School JavaScript/Front-end course, stage #1 (in progress);
 *IT Fundamentals for Ukrainian Switchers (completed);
 *IT Switch from GlobalLogic Education (completed);
-=======================================================================================================
+
 
 
 **###Experience**
 
 
 McDonalds Ukraine Ltd., shift manager.
-=======================================================================================================
+
 
 
 **Languages**
