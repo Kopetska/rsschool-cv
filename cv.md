@@ -36,6 +36,7 @@ I think the combination of my education, skills and experience could be a good a
 *-JavaScript                                                        
 *-Git, GitHub                                                      
 *-VS Code
+*-Figma
 
 
 **Soft skill**
