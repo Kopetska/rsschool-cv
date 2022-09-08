@@ -9,9 +9,14 @@ body {
     color: var(--text-color);
     background-color: var(--bg-color);
 }
-.hero {
-    background-color: #e6f5e2;
+a {
+    text-decoration: none;
 }
+.hero {
+    display: flex;
+    background-color: #f5f3e2;
+}
+
 .title {
     color: var(--title-color);
 }
