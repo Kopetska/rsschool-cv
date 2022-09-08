@@ -4,25 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
     <title>CV Anna Kopetska</title>
 </head>
 <body>
-    <main>
+    <main class="container">
         <section class="hero">
-        <img src="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg" alt="CV photo" width="450">
+        <img class="img" src="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg" alt="CV photo" width="450">
         <div>
         <h1 class="hero-title">Anna Kopetska</h1>
-        <p>Junior Front-end Developer</p>
+        <p class="title">Junior Front-end Developer</p>
         <nav>
-        <ul>
-            <li><a href="#contacts">Contacts</a></li>
-            <li><a href="#about">About me</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#code">Code</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#experience">Experience</a></li>
+        <ul class="navigation">
+            <li class="navigation-item"><a class="navigation-link" href="#contacts">Contacts</a></li>
+            <li class="navigation-item"><a class="navigation-link" href="#about">About me</a></li>
+            <li class="navigation-item"><a class="navigation-link" href="#skills">Skills</a></li>
+            <li class="navigation-item"><a class="navigation-link" href="#code">Code</a></li>
+            <li class="navigation-item"><a class="navigation-link" href="#education">Education</a></li>
+            <li class="navigation-item"><a class="navigation-link" href="#experience">Experience</a></li>
         </ul>
         </nav>
         </div>
@@ -30,13 +30,13 @@
         <section id="contacts">
         <h2 class="title">Contacts</h2>
         <ul>
-        <li>Location: Kyiv, Ukraine</li>
-        <li>E-mail: <a href="mailto:a.laptieva@icloud.com" target="_blank" rel="noreferrer noopener">a.laptieva@icloud.com</a></li>
-        <li>GitHub: <a href="https://github.com/Kopetska" target="_blank">Kopetska</a></li>
-        <li>Discodr: Anna Kopetska#4799</li>
+        <li>Location: <span class="contacts-element">Kyiv, Ukraine</span></li>
+        <li>E-mail: <a class="link" href="mailto:a.laptieva@icloud.com" target="_blank" rel="noreferrer noopener">a.laptieva@icloud.com</a></li>
+        <li>GitHub: <a class="link" href="https://github.com/Kopetska" target="_blank">Kopetska</a></li>
+        <li>Discodr: <span class="contacts-element">Anna Kopetska#4799</span></li>
         </ul>
         </section>
-        <section id="about">
+        <section class="section about" id="about">
             <h2 class="title">About myself</h2>
             <p>I have been working as shift manager in a restaurant business for 11 years. During this time I have made a career from
             an employee to a shift manager. I am responsible for the staff management, the food preparation and the customer service
@@ -48,10 +48,11 @@
             I think the combination of my education, skills and experience could be a good addition to become a Front-end Developer.
 </p>
         </section>
-        <section id="skills">
+        <section class="section skills" id="skills">
             <h2 class="title">My skills</h2>
+            <div class="skills-block">
             <div>
-            <h3 class="title">Hard skills</h3>
+            <h3 class="title min-title">Hard skills</h3>
             <ul>
                 <li>HTML5, CSS3</li>
                 <li>SASS, BEM</li>
@@ -62,7 +63,7 @@
             </ul>
             </div>
             <div>
-                <h3 class="title">Soft skills</h3>
+                <h3 class="title min-title">Soft skills</h3>
                 <ul>
                     <li>Team player</li>
                     <li>Self-learning</li>
@@ -70,8 +71,9 @@
                     <li>Emotional intelligence</li>
                     </ul>
             </div>
+            </div>
         </section>
-        <section id="code">
+        <section class="section code" id="code">
 <div>
     <h2 class="title">Code example</h2>
     <p>function squareSum&#40;numbers&#41; &#123;<br>
@@ -86,12 +88,12 @@
 <div>
     <h2 class="title">Completed projects</h2>
     <ul>
-        <li><a href="https://github.com/Kopetska/barbershop" target="_blank">Barbershop</a></li>
-        <li><a href="https://github.com/Kopetska/goit-markup-hw-08" target="_blank">Web-Studio</a></li>
+        <li><a class="link" href="https://github.com/Kopetska/barbershop" target="_blank">Barbershop</a></li>
+        <li><a class="link" href="https://github.com/Kopetska/goit-markup-hw-08" target="_blank">Web-Studio</a></li>
     </ul>
 </div>
 </section>
-<section id="education">
+<section class="section" id="education">
 <div>
 <h2 class="title">Education</h2>
 <p>National Pedagogical Dragomanov University, Faculty of Pedagogics and Psychology (graduated 2014).</p>
@@ -114,7 +116,7 @@
     </ul>
 </div>
 </section>
-<section id="experience">
+<section class="section" id="experience">
     <h2 class="title">Experience</h2>
     <p>McDonalds Ukraine Ltd., shift manager</p>
 </section>
