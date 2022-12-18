@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700;900&family=Roboto:wght@100;300;400;500;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>CV Anna Kopetska</title>
+</head>
+<body>
+   <header class="container header">
+    <nav>
+        <ul class="navigation">
+            <li class="navigation-item"><a class="navigation-link" href="#contacts">Contacts</a></li>
+            <li class="navigation-item"><a class="navigation-link" href="#about">About me</a></li>
+            <li class="navigation-item"><a class="navigation-link" href="#skills">Skills</a></li>
+            <li class="navigation-item"><a class="navigation-link" href="#code">Code</a></li>
+            <li class="navigation-item"><a class="navigation-link" href="#education">Education</a></li>
+            <li class="navigation-item"><a class="navigation-link" href="#experience">Experience</a></li>
+        </ul>
+    </nav>
+   </header>
+   <main>
+    <section class="container hero" id="contacts">
+        <div class="hero-block">
+        <h1 class="hero-title">Anna Kopetska</h1>
+        <p class="hero-text">Front-end developer</p>
+        </div>
+    <img class="img" src="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg" alt="CV photo" width="550">
+    </section>
+    <section class="container contacts">
+        <h2 class="contacts-title">Contacts</h2>
+        <ul>
+            <li class="contacts-item">
+                <div class="icon-border">
+                <svg class="contacts-icon">
+                    <use href="./images/sprite.svg#icon-address"></use>
+                </svg>
+                </div>
+                Location: <a class="contacts-link" href="https://www.google.com/maps/d/viewer?mid=1gNN4e6hMoBdcJdWmm6ONME5j1fc&msa=0&ll=50.40593976760262%2C30.658034999999984&spn=0.134571%2C0.296288&z=12" target="_blank">Kyiv, Ukraine</a></li>
+            <li class="contacts-item">
+                <div class="icon-border">
+                <svg class="contacts-icon">
+                    <use href="./images/sprite.svg#icon-mail"></use>
+                </svg>
+                </div>
+                E-mail: <a class="contacts-link" href="mailto:a.kopetska@icloud.com" target="_blank"
+                    rel="noreferrer noopener">a.kopetska@icloud.com</a></li>
+            <li class="contacts-item">
+                <div class="icon-border">
+                <svg class="contacts-icon">
+                    <use href="./images/sprite.svg#icon-github"></use>
+                </svg>
+                </div>
+                GitHub: <a class="contacts-link" href="https://github.com/Kopetska" target="_blank">Kopetska</a></li>
+            <li class="contacts-item">
+                <div class="icon-border">
+                <svg class="contacts-icon">
+                    <use href="./images/sprite.svg#icon-phone"></use>
+                </svg>
+                </div>
+                Phone: <a class="contacts-link" href="+380969877097">+380969877097</a></li>
+        </ul>
+    </section>
+    <section class="container about" id="about">
+        <h2 class="about-title">About myself</h2>
+        <p class="about-text">I have been working as shift manager in a restaurant business for 11 years. During this time I have made a career
+            from an employee to a shift manager.<br> I am responsible for the staff management, the food preparation and the customer
+            service
+            during the shift. I have gained a lot of valuable experience in team communication and time management.<br>
+            I have been thinking of changing my career direction. I am keen on programming. That is why I took a course in
+            Front-end
+            Development last year. And I keep learning now.<br> Development interests me because it provides ample opportunities
+            for
+            professional growth.<br>
+            I am quick learner, self-motivated and persistent.<br>
+            I think the combination of my education, skills and experience could be a good addition to become a Front-end
+            Developer.
+        </p>
+    </section>
+    <section class="container skills" id="skills">
+        <h2 class="skills-title">My skills</h2>
+        <div class="skills-block">
+            <div>
+                <h3 class="sample-skills">Hard skills</h3>
+                <ul class="skills-list">
+                    <li class="skills-item">HTML5, CSS3</li>
+                    <li class="skills-item">SASS, BEM</li>
+                    <li class="skills-item">JavaScript</li>
+                    <li class="skills-item">Git, GitHub</li>
+                    <li class="skills-item">VS Code</li>
+                    <li class="skills-item">Figma</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="sample-skills">Soft skills</h3>
+                <ul class="skills-list">
+                    <li class="skills-item">Team player</li>
+                    <li class="skills-item">Self-learning</li>
+                    <li class="skills-item">Problem solving skills</li>
+                    <li class="skills-item">Critical thinking</li>
+                    <li class="skills-item">Emotional intelligence</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="container code" id="code">
+        <div>
+            <h2 class="code-title">Code example</h2>
+            <div class="code-block">
+            <p class="code-sample">function squareSum&#40;numbers&#41; &#123;<br>
+                let total = 0;<br>
+                for&#40;const number of numbers&#41; &#123;<br>
+                total &#43;&#61; Math.pow&#40;number, 2&#41;;<br>
+                &#125;<br>
+                return total;<br>
+                &#125;
+            </p>
+            </div>
+        </div>
+        <div>
+            <h2 class="code-projects">Completed projects</h2>
+            <ul class="projects-list">
+                <li class="projects-item">
+                    <img class="projects-img" src="./images/barbershop.jpg" alt="Barbershop" width="350" height="300">
+                    <a class="projects-link" href="https://kopetska.github.io/barbershop/" target="_blank">Barbershop</a></li>
+                <li class="projects-item">
+                    <img class="projects-img" src="./images/webstudio.jpg" alt="Web Studio" width="350" height="300">
+                    <a class="projects-link" href="https://kopetska.github.io/goit-markup-hw-08/" target="_blank">Web-Studio</a></li>
+            </ul>
+        </div>
+    </section>
+    <section class="container education" id="education">
+        <div>
+            <h2 class="education-title">Education</h2>
+            <p class="education-years">2011-2016</p>
+            <p class="education-text">National Pedagogical Dragomanov University, Faculty of Pedagogics and Psychology.</p>
+        </div>
+        <div>
+            <h2 class="education-courses">Courses</h2>
+            <ul class="courses-list">
+                <li class="courses-item">GoIT Full Stack Developer (in progress)</li>
+                <li class="courses-item">RS School JavaScript/Front-end course, stage #1 (in progress)</li>
+                <li class="courses-item">IT Fundamentals for Ukrainian Switchers (completed)</li>
+                <li class="courses-item">IT Switch from GlobalLogic Education (completed)</li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="education-languages">Languages</h2>
+            <ul class="languages-list">
+                <li class="languages-item">English - B1(Intermediate) – EPAM English Test Result</li>
+                <li class="languages-item">Ukrainian – Native</li>
+                <li class="languages-item">Russian – Native</li>
+            </ul>
+        </div>
+    </section>
+    <section class="container experience" id="experience">
+        <h2 class="experience-title">Work Experience</h2>
+        <p class="experience-text">McDonalds Ukraine Ltd., shift manager</p>
+    </section>
+   </main>
+   <footer class="container footer">
+   <p class="copyright">&copy; 2022</p>
+   <a class="github-link" href="https://github.com/Kopetska" target="_blank">
+        <svg class="github-icon">
+            <use href="./images/sprite.svg#icon-github"></use>
+        </svg>
+        GitHub</a>
+<div class="logo-flex">
+    <a class="logo-link" href="https://rs.school/js/" target="_blank">RS School</a>
+        <span class="logo">
+            <span class="logo-text">R<span class="logo-letter">S</span><br>SC HO Ol
+            </span>
+            <span class="logo-border">
+                <span class="logo-add">JS</span>
+            </span>
+            </span>
+        </div>
+   </footer>
+</body>
+</html>
