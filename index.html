@@ -7,9 +7,6 @@
 <link
     href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700;900&family=Roboto:wght@100;300;400;500;700&display=swap"
     rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./styles.css">
     <title>CV Anna Kopetska</title>
 </head>
@@ -143,42 +140,45 @@
             <p class="education-text">National Pedagogical Dragomanov University, Faculty of Pedagogics and Psychology.</p>
         </div>
         <div>
-            <h2 class="">Courses</h2>
-            <ul>
-                <li>GoIT Full Stack Developer (in progress)</li>
-                <li>RS School JavaScript/Front-end course, stage #1 (in progress)</li>
-                <li>IT Fundamentals for Ukrainian Switchers (completed)</li>
-                <li>IT Switch from GlobalLogic Education (completed)</li>
+            <h2 class="education-courses">Courses</h2>
+            <ul class="courses-list">
+                <li class="courses-item">GoIT Full Stack Developer (in progress)</li>
+                <li class="courses-item">RS School JavaScript/Front-end course, stage #1 (in progress)</li>
+                <li class="courses-item">IT Fundamentals for Ukrainian Switchers (completed)</li>
+                <li class="courses-item">IT Switch from GlobalLogic Education (completed)</li>
             </ul>
         </div>
         <div>
-            <h2 class="">Languages</h2>
-            <ul>
-                <li>English - B1(Intermediate) – EPAM English Test Result</li>
-                <li>Ukrainian – Native</li>
-                <li>Russian – Native</li>
+            <h2 class="education-languages">Languages</h2>
+            <ul class="languages-list">
+                <li class="languages-item">English - B1(Intermediate) – EPAM English Test Result</li>
+                <li class="languages-item">Ukrainian – Native</li>
+                <li class="languages-item">Russian – Native</li>
             </ul>
         </div>
     </section>
-    <section class="section" id="experience">
-        <h2 class="title">Experience</h2>
-        <p>McDonalds Ukraine Ltd., shift manager</p>
+    <section class="container experience" id="experience">
+        <h2 class="experience-title">Work Experience</h2>
+        <p class="experience-text">McDonalds Ukraine Ltd., shift manager</p>
     </section>
    </main>
-   <footer>
-   <p>&copy; 2022</p>
-        <div>
-    <svg>
-        <use href="./images/sprite.svg#icon-github"></use>
-    </svg>
-    <a href="https://github.com/Kopetska" target="_blank">GitHub</a>
-    </div>
-    <div>
-        <p>RS<br>SC HO Ol
-        </p>
-        <p>JS</p>
-        <a href="https://rs.school/js/" target="_blank">RS School</a>
-    </div>
+   <footer class="container footer">
+   <p class="copyright">&copy; 2022</p>
+   <a class="github-link" href="https://github.com/Kopetska" target="_blank">
+        <svg class="github-icon">
+            <use href="./images/sprite.svg#icon-github"></use>
+        </svg>
+        GitHub</a>
+<div class="logo-flex">
+    <a class="logo-link" href="https://rs.school/js/" target="_blank">RS School</a>
+        <span class="logo">
+            <span class="logo-text">R<span class="logo-letter">S</span><br>SC HO Ol
+            </span>
+            <span class="logo-border">
+                <span class="logo-add">JS</span>
+            </span>
+            </span>
+        </div>
    </footer>
 </body>
 </html>
